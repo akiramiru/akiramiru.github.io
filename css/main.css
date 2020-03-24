@@ -171,7 +171,7 @@ footer {
 }
 
 .header__btn_vk:hover {
-    opacity: 0.95;
+    opacity: 0.9;
 }
 
 .header__btn_yt {
@@ -227,5 +227,6 @@ footer {
 
 #vk_comments {
     width: 900px;
-    height: 500px;   
+    height: 400px;
+    margin-bottom: 50px;
 }
