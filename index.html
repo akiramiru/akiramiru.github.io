@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lora:500|Roboto:300&display=swap&subset=cyrillic-ext" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5b10538e2d.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
+    <script type="text/javascript">
+    VK.init({apiId: 7373396, onlyWidgets: true});
+    </script>
     <title>akiramiru's blog</title>
 </head>
 <body>
@@ -29,7 +33,7 @@
         <img src="/img/life.png" alt="когда вдохнул воздух в донецке">
         <figcaption class="figcaption"><i>Когда вдохнул воздух в Донецке</i></figcaption>
 
-        <p>Сейчас вы увидели вдохновляющую картинку. Мы видим, как эта девушка наслаждается великолепным донецким воздухом. Да, действительно, донецкий воздух особенный, он явно отличается своими качествами и особенностями, нежели воздух в каком-либо другом месте. В целом, если смотреть на Донецк в целом, то это очень классное место для жизни и отдыха. Лично я считаю, что Донецкую Народную Республику необходимо признать и внести в список стран Европейского Союза. Я думаю, что это место заслуживает такого статуса. И жители будут довольны. Да и в целом все люди в мире.</p>
+        <p>Сейчас вы увидели вдохновляющую картинку. Мы видим, как эта девушка наслаждается великолепным донецким воздухом. Да, действительно, донецкий воздух особенный, он явно отличается своими качествами и особенностями, нежели воздух в каком-либо другом месте. В целом, если смотреть на Донецк в целом, то это очень классное место для жизни и отдыха. Лично я считаю, что <a href="https://vk.cc/arIIAV">Донецкую Народную Республику</a> необходимо признать и внести в список стран Европейского Союза. Я думаю, что это место заслуживает такого статуса. И жители будут довольны. Да и в целом все люди в мире.</p>
 
         <img src="./img/donetsk.jpg" alt="Фотография Донецка">
         <figcaption class="figcaption"><i>Великолепный город Донецк</i></figcaption>
@@ -45,12 +49,37 @@
 
         <p class="source">Источник: <a href="https://pikabu.ru/story/10_faktov_o_donetske_2648690" target="__blank"> pikabu.ru</a></p>
 
-        <p>Именно так и завершилось моё рассуждение. От жизни к Донецку. Думаю, вы в шоке от такого поворота событий. Я тоже, ведь я включил свою бредоговорилку лишь для того, чтобы наполнить этот говносайт живым контентом, а не жопой по типу Lorem Ipsum, хотя если бы не этот бред, то вёрстка данного сайта заняла минут 5, а не полтора часа. В общем ладно, чем ещё заниматься во время самоизоляции во время каратина?</p>
+        <p>Именно так и завершилось моё рассуждение. От жизни к Донецку. Думаю, вы в шоке от такого поворота событий. Я тоже, ведь я включил свою бредоговорилку лишь для того, чтобы наполнить этот говносайт живым контентом, а не жопой по типу <a href="https://ru.wikipedia.org/wiki/Lorem_ipsum" target="__blank">Lorem Ipsum</a>, хотя если бы не этот бред, то вёрстка данного сайта заняла минут 5, а не полтора часа. В общем ладно, чем ещё заниматься во время самоизоляции во время каратина?</p>
+
+        <p>Поделиться в социальных сетях:</p>
+        <div class="share">
+            <a href="#" class="header__btn_vk"><i class="fab fa-vk"></i></a>
+            <a href="#" class="header__btn_yt"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="header__btn_twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+
+        <div id="vk_comments"></div>
+        <script type="text/javascript">
+        VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*"});
+        </script>
 
     </div>
 
-    <footer class="footer">
-        <p class="footer_text">akiramiru. 2020 <br>Мне похй, я панк, потом доделаю, как нервы полегчают</p>
+    <footer>
+        <p class="footer_text">akiramiru. 2020</p>
+        
+        <div class="header-social">
+            <a href="https://vk.com/akiramiru" class="header__social-item" target="__blank">
+                <i class="fab fa-vk"></i>
+            </a>
+            <a href="#" class="header__social-item" target="__blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="header__social-item" target="__blank">
+                <i class="fab fa-telegram-plane"></i>
+            </a>
+        </div>
     </footer>
+
 </body>
 </html>
